@@ -1,0 +1,564 @@
+6 4 Found cool recipe!
+0212
+6 5 Found cool recipe!
+01012
+7 4 Found cool recipe!
+02012
+7 5 Found cool recipe!
+012
+7 6 Found cool recipe!
+01212
+10 6 Found cool recipe!
+020102
+10 7 Found cool recipe!
+01012
+10 8 Found cool recipe!
+01010212
+10 9 Found cool recipe!
+202012
+11 6 Found cool recipe!
+0202010202
+11 7 Found cool recipe!
+012
+11 8 Found cool recipe!
+0212
+11 9 Found cool recipe!
+0120202
+11 10 Found cool recipe!
+202012
+14 8 Found cool recipe!
+020101202
+14 9 Found cool recipe!
+01012
+14 10 Found cool recipe!
+0212
+14 11 Found cool recipe!
+0101212
+14 12 Found cool recipe!
+012101212
+14 13 Found cool recipe!
+202012
+15 8 Found cool recipe!
+0202010202
+15 9 Found cool recipe!
+012
+15 10 Found cool recipe!
+0212
+15 11 Found cool recipe!
+02012
+15 12 Found cool recipe!
+01010212
+15 13 Found cool recipe!
+202012
+15 14 Found cool recipe!
+202012
+18 10 Found cool recipe!
+020101202
+18 11 Found cool recipe!
+01012
+18 12 Found cool recipe!
+0212
+18 13 Found cool recipe!
+0201202
+18 14 Found cool recipe!
+010202012
+18 15 Found cool recipe!
+010121212
+18 16 Found cool recipe!
+01010212
+18 17 Found cool recipe!
+202012
+19 10 Found cool recipe!
+0202010202
+19 11 Found cool recipe!
+012
+19 12 Found cool recipe!
+02012
+19 13 Found cool recipe!
+0101012012102
+19 14 Found cool recipe!
+01212
+19 15 Found cool recipe!
+0120202
+19 16 Found cool recipe!
+01010212
+19 17 Found cool recipe!
+2010201012
+19 18 Found cool recipe!
+202012
+22 12 Found cool recipe!
+020101202
+22 13 Found cool recipe!
+01012
+22 14 Found cool recipe!
+020102
+22 15 Found cool recipe!
+01010201012
+22 16 Found cool recipe!
+02101012
+22 17 Found cool recipe!
+010201202
+22 18 Found cool recipe!
+012101212
+22 19 Found cool recipe!
+01012121212
+22 20 Found cool recipe!
+01010212
+22 21 Found cool recipe!
+202012
+23 12 Found cool recipe!
+0202010202
+23 13 Found cool recipe!
+012
+23 14 Found cool recipe!
+012102121
+23 15 Found cool recipe!
+12012
+23 16 Found cool recipe!
+0212
+23 17 Found cool recipe!
+0201212
+23 18 Found cool recipe!
+0202010202
+23 19 Found cool recipe!
+012020202
+23 20 Found cool recipe!
+0101020102
+23 21 Found cool recipe!
+2010201012
+23 22 Found cool recipe!
+202012
+26 14 Found cool recipe!
+020101202
+26 15 Found cool recipe!
+01012
+26 16 Found cool recipe!
+0202010202
+26 17 Found cool recipe!
+010101012012102
+26 18 Found cool recipe!
+0212
+26 19 Found cool recipe!
+0101212
+26 20 Found cool recipe!
+010201202
+26 21 Found cool recipe!
+012101212
+26 22 Found cool recipe!
+01010212
+26 23 0 1 0 1 2 1 2 1 2 1 2 1 2 = tr
+0101212121212
+26 24 Found cool recipe!
+0101020102
+26 25 Found cool recipe!
+202012
+27 14 Found cool recipe!
+0202010202
+27 15 Found cool recipe!
+012
+27 16 Found cool recipe!
+012102121
+27 17 Found cool recipe!
+0101012012102
+27 18 Found cool recipe!
+0212
+27 19 Found cool recipe!
+02012
+27 20 Found cool recipe!
+0201212
+27 21 Found cool recipe!
+0120202
+27 22 Found cool recipe!
+0101020102
+27 23 Found cool recipe!
+01202020202
+27 24 Found cool recipe!
+010121021212
+27 25 Found cool recipe!
+2010201012
+27 26 Found cool recipe!
+202012
+30 16 Found cool recipe!
+020101202
+30 17 Found cool recipe!
+01012
+30 18 Found cool recipe!
+0202010202
+30 19 Found cool recipe!
+0102012
+30 20 Found cool recipe!
+0212
+30 21 Found cool recipe!
+010101020102102
+30 22 Found cool recipe!
+01202120202
+30 23 Found cool recipe!
+010202012
+30 24 Found cool recipe!
+01010212
+30 25 0 2 0 1 2 0 2 1 2 1 2 = tr
+02012021212
+30 26 Found cool recipe!
+0101020102
+30 27 0 1 0 1 2 1 2 1 2 1 2 1 2 1 2 = tr
+010121212121212
+30 28 Found cool recipe!
+01010212
+30 29 Found cool recipe!
+202012
+31 16 Found cool recipe!
+0202010202
+31 17 Found cool recipe!
+012
+31 18 Found cool recipe!
+012102121
+31 19 Found cool recipe!
+0101012012102
+31 20 Found cool recipe!
+02012
+31 21 Found cool recipe!
+010101010101201012102
+31 22 Found cool recipe!
+01212
+31 23 Found cool recipe!
+0201212
+31 24 Found cool recipe!
+0101020102
+31 25 0 1 0 1 2 1 0 2 1 2 1 = tr
+01012102121
+31 26 Found cool recipe!
+012012121021
+31 27 0 1 2 0 2 0 2 0 2 0 2 0 2 = tr
+0120202020202
+31 28 Found cool recipe!
+0101020102
+31 29 Found cool recipe!
+2010201012
+31 30 Found cool recipe!
+202012
+34 18 Found cool recipe!
+020101202
+34 19 Found cool recipe!
+01012
+34 20 Found cool recipe!
+0202010202
+34 21 Found cool recipe!
+010101012012102
+34 22 Found cool recipe!
+020102
+34 23 Found cool recipe!
+01010201012
+34 24 Found cool recipe!
+02101012
+34 25 Found cool recipe!
+0201202
+34 26 Found cool recipe!
+010201202
+34 27 Found cool recipe!
+012101212
+34 28 Found cool recipe!
+0101020102
+34 29 0 1 0 2 0 2 0 1 2 1 2 1 2 = tr
+0102020121212
+34 30 Found cool recipe!
+01010212
+34 31 0 1 0 1 2 1 2 1 2 1 2 1 2 1 2 1 2 = tr
+01012121212121212
+34 32 Found cool recipe!
+01010212
+34 33 Found cool recipe!
+202012
+35 18 Found cool recipe!
+0202010202
+35 19 Found cool recipe!
+012
+35 20 Found cool recipe!
+012102121
+35 21 Found cool recipe!
+0101012012102
+35 22 Found cool recipe!
+0202010202
+35 23 Found cool recipe!
+12012
+35 24 Found cool recipe!
+0212
+35 25 0 1 0 1 0 2 0 1 0 2 1 0 2 = tr
+0101020102102
+35 26 Found cool recipe!
+0201212
+35 27 Found cool recipe!
+0120202
+35 28 Found cool recipe!
+01010212
+35 29 Found cool recipe!
+02012020212
+35 30 Found cool recipe!
+0101020102
+35 31 0 1 2 0 2 0 2 0 2 0 2 0 2 0 2 = tr
+012020202020202
+35 32 Found cool recipe!
+01010212
+35 33 Found cool recipe!
+2010201012
+35 34 Found cool recipe!
+202012
+38 20 Found cool recipe!
+020101202
+38 21 Found cool recipe!
+01012
+38 22 Found cool recipe!
+0202010202
+38 23 Found cool recipe!
+010101012012102
+38 24 Found cool recipe!
+0202010202
+38 25 1 0 1 2 1 0 2 1 2 1 0 1 0 1 0 1 0 2 0 2 = tr
+10121021210101010202
+38 26 Found cool recipe!
+0212
+38 27 Found cool recipe!
+0101212
+38 28 Found cool recipe!
+020101202
+38 29 Found cool recipe!
+010201202
+38 30 Found cool recipe!
+012101212
+38 31 0 1 0 2 0 1 2 1 2 0 2 = tr
+01020121202
+38 32 Found cool recipe!
+012012121021
+38 33 0 1 2 1 2 1 0 1 2 1 2 1 2 = tr
+0121210121212
+38 34 Found cool recipe!
+012012121021
+38 35 0 1 0 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 = tr
+0101212121212121212
+38 36 Found cool recipe!
+0101020102
+38 37 Found cool recipe!
+202012
+39 20 Found cool recipe!
+0202010202
+39 21 Found cool recipe!
+012
+39 22 Found cool recipe!
+012102121
+39 23 Found cool recipe!
+0101012012102
+39 24 Found cool recipe!
+0202010202
+39 25 0 2 1 0 1 0 1 0 2 1 2 1 0 2 0 1 0 2 = tr
+021010102121020102
+39 26 Found cool recipe!
+0212
+39 27 Found cool recipe!
+02012
+39 28 Found cool recipe!
+012012121021
+39 29 Found cool recipe!
+0201212
+39 30 Found cool recipe!
+02012020212
+39 31 0 2 0 1 2 0 2 1 2 = tr
+020120212
+39 32 Found cool recipe!
+012012121021
+39 33 Found cool recipe!
+01202020202
+39 34 Found cool recipe!
+012012121021
+39 35 0 1 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 = tr
+01202020202020202
+39 36 Found cool recipe!
+01010212
+39 37 Found cool recipe!
+2010201012
+39 38 Found cool recipe!
+202012
+42 22 Found cool recipe!
+020101202
+42 23 Found cool recipe!
+01012
+42 24 Found cool recipe!
+0202010202
+42 25 Found cool recipe!
+010101012012102
+42 26 Found cool recipe!
+0202010202
+42 27 Found cool recipe!
+0102012
+42 28 Found cool recipe!
+0212
+42 29 0 1 0 1 0 1 0 1 0 2 0 1 0 1 0 1 0 1 0 2 0 1 2 = tr
+01010101020101010102012
+42 30 Found cool recipe!
+012012121021
+42 31 Found cool recipe!
+0201202
+42 32 Found cool recipe!
+010202012
+42 33 0 1 0 1 2 0 1 2 0 2 1 = tr
+01012012021
+42 34 Found cool recipe!
+0120212021
+42 35 Found cool recipe!
+01012121212
+42 36 Found cool recipe!
+010121021212
+42 37 0 2 0 1 2 0 2 1 2 1 2 1 2 1 2 = tr
+020120212121212
+42 38 Found cool recipe!
+010121021212
+42 39 0 1 0 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 = tr
+010121212121212121212
+42 40 Found cool recipe!
+01010212
+42 41 Found cool recipe!
+202012
+43 22 Found cool recipe!
+0202010202
+43 23 Found cool recipe!
+012
+43 24 Found cool recipe!
+012102121
+43 25 Found cool recipe!
+0101012012102
+43 26 Found cool recipe!
+0202010202
+43 27 Found cool recipe!
+010101010101201012102
+43 28 Found cool recipe!
+02012
+43 29 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 2 0 1 2 1 0 1 0 1 0 2 = tr
+01010101010101010120121010102
+43 30 Found cool recipe!
+01212
+43 31 0 1 0 1 0 1 0 1 0 1 2 0 2 = tr
+0101010101202
+43 32 Found cool recipe!
+0201212
+43 33 Found cool recipe!
+0120202
+43 34 Found cool recipe!
+0202010202
+43 35 Found cool recipe!
+012020202
+43 36 Found cool recipe!
+012012121021
+43 37 0 1 2 1 0 1 2 1 2 1 2 0 2 = tr
+0121012121202
+43 38 Found cool recipe!
+01010212
+43 39 0 1 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 = tr
+0120202020202020202
+43 40 Found cool recipe!
+0101020102
+43 41 Found cool recipe!
+2010201012
+43 42 Found cool recipe!
+202012
+46 24 Found cool recipe!
+020101202
+46 25 Found cool recipe!
+01012
+46 26 Found cool recipe!
+0202010202
+46 27 Found cool recipe!
+010101012012102
+46 28 Found cool recipe!
+0202010202
+46 29 0 1 0 1 0 1 0 1 0 1 0 1 0 1 2 0 1 2 1 0 1 0 2 = tr
+01010101010101201210102
+46 30 Found cool recipe!
+020102
+46 31 Found cool recipe!
+01010201012
+46 32 Found cool recipe!
+02101012
+46 33 Found cool recipe!
+010101020102102
+46 34 Found cool recipe!
+01202120202
+46 35 Found cool recipe!
+010201202
+46 36 Found cool recipe!
+012101212
+46 37 2 1 0 2 1 0 2 1 0 1 0 1 0 2 1 2 = tr
+2102102101010212
+46 38 Found cool recipe!
+012012121021
+46 39 0 1 0 2 0 1 2 1 2 1 2 0 2 = tr
+0102012121202
+46 40 Found cool recipe!
+012012121021
+46 41 0 1 0 2 0 2 1 2 0 1 2 1 2 1 2 1 2 = tr
+01020212012121212
+46 42 Found cool recipe!
+0101020102
+46 43 0 1 0 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 = tr
+01012121212121212121212
+46 44 Found cool recipe!
+01010212
+46 45 Found cool recipe!
+202012
+47 24 Found cool recipe!
+0202010202
+47 25 Found cool recipe!
+012
+47 26 Found cool recipe!
+012102121
+47 27 Found cool recipe!
+0101012012102
+47 28 Found cool recipe!
+0202010202
+47 29 Found cool recipe!
+010101010101201012102
+47 30 Found cool recipe!
+0202010202
+47 31 Found cool recipe!
+12012
+47 32 Found cool recipe!
+0212
+47 33 0 2 1 0 1 0 2 1 2 1 0 1 0 1 0 2 0 2 = tr
+021010212101010202
+47 34 Found cool recipe!
+012012121021
+47 35 Found cool recipe!
+0201212
+47 36 Found cool recipe!
+02012020212
+47 37 0 1 0 1 0 1 2 1 2 1 2 = tr
+01010121212
+47 38 Found cool recipe!
+0120212021
+47 39 Found cool recipe!
+02012020212
+47 40 Found cool recipe!
+01010212
+47 41 0 2 0 1 2 0 2 0 2 0 2 1 2 0 2 = tr
+020120202021202
+47 42 Found cool recipe!
+012012121021
+47 43 0 1 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 0 2 = tr
+012020202020202020202
+47 44 Found cool recipe!
+0101020102
+47 45 Found cool recipe!
+2010201012
+47 46 Found cool recipe!
+202012
+50 26 Found cool recipe!
+020101202
+50 27 Found cool recipe!
+01012
+50 28 Found cool recipe!
+0202010202
+50 29 Found cool recipe!
+010101012012102
+50 30 Found cool recipe!
+0202010202
+50 31 0 1 0 1 0 1 0 1 0 1 2 0 2 0 2 0 2 = tr
+01010101012020202
+50 32 Found cool recipe!
+0202010202

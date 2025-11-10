@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>What k's generate r_k r_n-? r_n</title>
+    <script>
+        async function startCompute() {
+            const param1 = document.getElementById('param1').value;
+            const param2 = document.getElementById('param2').value;
+            
+            const output = document.getElementById('output');
+            output.textContent = '';  // Clear previous results
+            
+            const formData = new URLSearchParams();
+            formData.append('param1', param1);
+            formData.append('param2', param2);
+            
+            try {
+                const response = await fetch('/compute', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (!response.ok) {
+                    const error = await response.text();
+                    throw new Error(error || `HTTP error! status: ${response.status}`);
+                }
+                
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) break;
+                    
+                    const chunk = decoder.decode(value, { stream: true });
+                    output.textContent += chunk;
+                    output.scrollTop = output.scrollHeight;
+                }
+                
+                // Flush any remaining decoded text
+                const finalChunk = decoder.decode();
+                if (finalChunk) {
+                    output.textContent += finalChunk;
+                }
+            } catch (error) {
+                output.textContent += `\nError: ${error.message}`;
+            }
+        }
+	
+	async function startCompute1() {
+            const param1 = document.getElementById('parampam1').value;
+            const param2 = document.getElementById('parampam2').value;
+            const param3 = document.getElementById('parampam3').value;
+            const param4 = document.getElementById('parampam4').value;
+            const param5 = document.getElementById('parampam5').value;
+            const param6 = document.getElementById('parampam6').value;
+            
+            const output = document.getElementById('output1');
+            output.textContent = '';  // Clear previous results
+            
+            const formData = new URLSearchParams();
+            formData.append('param1', param1);
+            formData.append('param2', param2);
+            formData.append('param3', param3);
+            formData.append('param4', param4);
+            formData.append('param5', param5);
+            formData.append('param6', param6);
+            
+            try {
+                const response = await fetch('/compute1', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (!response.ok) {
+                    const error = await response.text();
+                    throw new Error(error || `HTTP error! status: ${response.status}`);
+                }
+                
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) break;
+                    
+                    const chunk = decoder.decode(value, { stream: true });
+                    output.textContent += chunk;
+                    output.scrollTop = output.scrollHeight;
+                }
+                
+                // Flush any remaining decoded text
+                const finalChunk = decoder.decode();
+                if (finalChunk) {
+                    output.textContent += finalChunk;
+                }
+            } catch (error) {
+                output.textContent += `\nError: ${error.message}`;
+            }
+        }
+    </script>
+    <style>
+        #output, #output1{
+            font-family: monospace;
+            white-space: pre;
+            background: #f4f4f4;
+            padding: 10px;
+            margin-top: 10px;
+            height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>What k's generate r_k r_n-? r_n</h1>
+    <form onsubmit="event.preventDefault(); startCompute();">
+        r_n-<input type="number" step="any" id="param1" placeholder="Number 1" required>
+        MAX_N:<input type="number" step="any" id="param2" placeholder="Number 2" required>
+        <button type="submit">Run Computation</button>
+    </form>
+    <div id="output"></div>
+    
+    <h1>Search for permutation</h1>
+    <form onsubmit="event.preventDefault(); startCompute1();">
+        checker_type<input type="number" step="any" id="parampam1" placeholder="Number 1" required>
+       	delta<input type="number" step="any" id="parampam2" placeholder="Number 2" required>
+        k<input type="number" step="any" id="parampam3" placeholder="Number 1" required>
+        nmin<input type="number" step="any" id="parampam4" placeholder="Number 1" required>
+        nmax<input type="number" step="any" id="parampam5" placeholder="Number 2" required>
+        nstep<input type="number" step="any" id="parampam6" placeholder="Number 2" required>
+        <button type="submit">Run Computation</button>
+    </form>
+    <div id="output1"></div>
+</body>
+</html>
