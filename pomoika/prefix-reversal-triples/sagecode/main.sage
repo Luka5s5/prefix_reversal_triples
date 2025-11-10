@@ -634,6 +634,14 @@ if __name__=="__main__":
     for n in range(4,101):
         Sn_card = SymmetricGroup(n).cardinality()
         for b in range(2,n):
+            gens = [Prefix(n,b),Prefix(n,n)]
+            prefix_group_card = PermutationGroup(gens).cardinality()
+            print((b,b,n,Sn_card//prefix_group_card,))
+    exit(0)
+
+    for n in range(4,101):
+        Sn_card = SymmetricGroup(n).cardinality()
+        for b in range(2,n):
             for a in range(2,b):
                 gens = [Prefix(n,a),Prefix(n,b),Prefix(n,n)]
                 prefix_group_card = PermutationGroup(gens).cardinality()

@@ -640,6 +640,14 @@ if __name__=="__main__":
     for n in range(_sage_const_4 ,_sage_const_101 ):
         Sn_card = SymmetricGroup(n).cardinality()
         for b in range(_sage_const_2 ,n):
+            gens = [Prefix(n,b),Prefix(n,n)]
+            prefix_group_card = PermutationGroup(gens).cardinality()
+            print((b,b,n,Sn_card//prefix_group_card,))
+    exit(_sage_const_0 )
+
+    for n in range(_sage_const_4 ,_sage_const_101 ):
+        Sn_card = SymmetricGroup(n).cardinality()
+        for b in range(_sage_const_2 ,n):
             for a in range(_sage_const_2 ,b):
                 gens = [Prefix(n,a),Prefix(n,b),Prefix(n,n)]
                 prefix_group_card = PermutationGroup(gens).cardinality()
