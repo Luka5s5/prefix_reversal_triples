@@ -1,0 +1,21 @@
+❯ hyperfine --runs 5 './parallel_benchmark 1 -2 5 10 11 2'
+Benchmark 1: ./parallel_benchmark 1 -2 5 10 11 2
+  Time (mean ± σ):     17.654 s ±  0.601 s    [User: 32.162 s, System: 89.884 s]
+  Range (min … max):   17.159 s … 18.475 s    5 runs
+
+❯ hyperfine --runs 5 './regular_benchmark 1 -2 5 10 11 2'
+Benchmark 1: ./regular_benchmark 1 -2 5 10 11 2
+  Time (mean ± σ):     26.084 s ±  0.655 s    [User: 25.014 s, System: 0.295 s]
+  Range (min … max):   25.341 s … 26.788 s    5 runs
+
+❯ hyperfine --runs 5 './parallel_benchmark 0 -3 11 13 2500 6'
+Benchmark 1: ./parallel_benchmark 0 -3 11 13 2500 6
+  Time (mean ± σ):     12.516 s ±  0.619 s    [User: 63.843 s, System: 1.037 s]
+  Range (min … max):   12.009 s … 13.526 s    5 runs
+
+❯ hyperfine --runs 5 './regular_benchmark 0 -3 11 13 2500 6'
+Benchmark 1: ./regular_benchmark 0 -3 11 13 2500 6
+  Time (mean ± σ):     71.361 s ±  0.458 s    [User: 70.128 s, System: 0.357 s]
+  Range (min … max):   70.891 s … 72.105 s    5 runs
+
+
