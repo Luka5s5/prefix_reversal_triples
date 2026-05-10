@@ -282,6 +282,13 @@ std::function<bool(Permutation)> createAdjacentChecker(Permutation c) {
     };
 }
 
+std::string check_recipes(std::vector<Permutation> gens, std::function<bool(Permutation)> checker, std::vector<std::string> recipes) {
+    for(auto recipe:recipes)
+        if (checker(bake(gens,recipe)))
+            return recipe;
+    return "";
+}
+
 std::string parallel_bfs(std::vector<Permutation> gens, std::function<bool(Permutation)> checker, std::string start_recipe = "") {
     auto st = bake(gens, start_recipe);
     if (checker(st)) {
@@ -468,25 +475,33 @@ void find_recipes_general(int delta, int k, std::function<bool(Permutation)> che
 	}
 }
 
-void find_recipes_general_parallel(int delta, int k, std::function<bool(Permutation)> checker, int nmin=6, int nmax=30, int nstep=1){
+std::string find_recipes_general_parallel(int delta, int k, std::function<bool(Permutation)> checker, int nmin=6, int nmax=30, int nstep=1, std::string start=""){
+        std::string latest_recipe;
         for(int n=nmin; n<=nmax; n+= nstep){
 		    std::vector<Permutation> base = {Prefix_by_delta(n,k),Prefix_by_delta(n,delta),Prefix_by_delta(n,0)};
-		    auto ans=parallel_bfs(base,{"0","12","21"},checker,"");
+		    auto ans=parallel_bfs(base,{"0","1","2"},checker,start);
 		    std::cout<<n<<" "<<k<<" ";
 		    if(ans=="-1"){
 			std::cout<<"notfound";
 		    }
 		    else{
-                        auto res=bake({base[0],base[1],base[2]},ans).to_actual_cycles();
+                        latest_recipe = ans;
+                        auto res=bake(base,ans).to_actual_cycles();
 			std::cout<<ans<<" "<<res.size()<<" "<<(res[0].size()==n);
 		    }
 		    std::cout<<std::endl;	
 	}
+        return latest_recipe;
 }
 
 bool is_n_cycle(Permutation p){
     auto v = p.to_actual_cycles();
-    return v.size()==1 and v[0].size()==p.size();
+    bool res = v.size()==1 and v[0].size()==p.size();
+    // if (res){
+    //     std::cout << "I think this is a n-cycle: " << p.to_cycles() << std::endl;
+    //     std::cout << "Number of cycles: " << v.size() << "\nSize of the first cycle: "<< v[0].size() << "\nSize of whole perm: " << p.size() << std::endl;
+    // }
+    return res;
 }
 
 void find_cycles_transpositions(int delta, std::string start_recipe=""){

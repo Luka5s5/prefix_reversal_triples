@@ -1,6 +1,8 @@
 #include "main.cpp"
 #include <fstream>
 #include <sstream>
+#include <map>
+#include <tuple>
 
 int main(int argc, char *argv[]) {
     std::ifstream fin("nohup.out");
@@ -12,15 +14,41 @@ int main(int argc, char *argv[]) {
         int a,b,n;
         bool generates = false;
         std::string ending;
-        lstream >> ch >> a >> ch >> b >> ch >> n >> ch >> ch >> ending;
-        generates = (ending.size() == 1);
-        std::cout << a << ' ' << b << ' ' << n << ' ' << generates << std::endl;
+        lstream >> ch >> a >> ch >> b >> ch >> n >> ch  >> ending;
+        generates = (ending.size() == 2) && (ending[0]=='1');
+        // std::cout << a << ' ' << b << ' ' << n << ' ' << generates << std::endl;
         if (generates){
             generating.push_back({a, b, n});
         }
         else{
             non_generating.push_back({a, b, n});
         }
+    }
+    std::vector<std::string> known_recipes;
+    std::map<std::tuple<int,int,int>, std::string> recipes_cycles;
+    std::map<std::tuple<int,int,int>, std::string> recipes_adj;
+    for (auto triple:generating){
+	std::cout<< "Finding cycle recipes for " << triple[0] << " " << triple[1] << " " << triple[2] << std::endl;
+	std::vector<Permutation> base = {Prefix_by_delta(triple[2],triple[0]),Prefix_by_delta(triple[2],triple[1]),Prefix_by_delta(triple[2],0)};
+	base.push_back(bake(base,"012"));
+	
+	std::string cycle_prev_rec = recipes_cycles.count(std::make_tuple(triple[0]-4, triple[1]-4, triple[2]-4))?recipes_cycles[std::make_tuple(triple[0]-4, triple[1]-4, triple[2]-4)]:"";
+	std::string cycle_recipe = check_recipes(base, is_n_cycle, known_recipes);
+	if(cycle_recipe == "") cycle_recipe = find_recipes_general_parallel(triple[1], triple[0], is_n_cycle, triple[2], triple[2], 1, cycle_prev_rec);
+	recipes_cycles[std::make_tuple(triple[0], triple[1], triple[2])] = cycle_recipe;
+	
+	known_recipes.push_back(cycle_recipe);
+	auto n_cycle = bake(base, cycle_recipe);
+	std::cout << "The cycle found: " << n_cycle.to_cycles() << std::endl;
+	auto adj_checker = createAdjacentChecker(n_cycle);
+
+	std::string adj_prev_rec = recipes_adj.count(std::make_tuple(triple[0]-4, triple[1]-4, triple[2]-4))?recipes_adj[std::make_tuple(triple[0]-4, triple[1]-4, triple[2]-4)]:"";
+	std::string adj_recipe = check_recipes(base,adj_checker,known_recipes);
+	if(adj_recipe == "") adj_recipe = find_recipes_general_parallel(triple[1], triple[0], adj_checker, triple[2], triple[2], 1, adj_prev_rec);
+	recipes_cycles[std::make_tuple(triple[0], triple[1], triple[2])] = adj_recipe;
+
+	known_recipes.push_back(adj_recipe);
+	std::cout << "The adj found: " << bake(base, adj_recipe).to_cycles() << std::endl;
     }
 
 	//
